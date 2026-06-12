@@ -10,6 +10,7 @@ tags — so it drops straight into a Hermes skills tree.
 | Category | Skill | What it does |
 |---|---|---|
 | `data-science` | [`markitdown-converter`](skills/data-science/markitdown-converter/) | Convert PDF / Office / HTML / CSV / JSON / XML / images / audio / EPub / ZIP into clean, structure-preserving Markdown via Microsoft MarkItDown — then optionally analyze. |
+| `software-development` | [`dev-browser`](skills/software-development/dev-browser/) | Drive a real browser (navigate, click, fill, screenshot, full Playwright API) via sandboxed JavaScript, wrapping the open-source [dev-browser](https://github.com/SawyerHood/dev-browser) CLI by Sawyer Hood (MIT). |
 
 ## Install
 
@@ -33,6 +34,7 @@ with Claude (Anthropic)**. Upstream libraries are credited inside each skill's
 `SKILL.md` and `Credits` section:
 
 - `markitdown-converter` wraps [Microsoft MarkItDown](https://github.com/microsoft/markitdown) (MIT).
+- `dev-browser` wraps the [dev-browser](https://github.com/SawyerHood/dev-browser) CLI by Sawyer Hood (MIT), brought to you by [Do Browser](https://dobrowser.io).
 
 A Claude-format version of these skills also lives at
 [l3ad3r1/Claude-skills-repo](https://github.com/l3ad3r1/Claude-skills-repo).
