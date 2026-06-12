@@ -11,6 +11,12 @@ tags — so it drops straight into a Hermes skills tree.
 |---|---|---|
 | `data-science` | [`markitdown-converter`](skills/data-science/markitdown-converter/) | Convert PDF / Office / HTML / CSV / JSON / XML / images / audio / EPub / ZIP into clean, structure-preserving Markdown via Microsoft MarkItDown — then optionally analyze. |
 | `software-development` | [`dev-browser`](skills/software-development/dev-browser/) | Drive a real browser (navigate, click, fill, screenshot, full Playwright API) via sandboxed JavaScript, wrapping the open-source [dev-browser](https://github.com/SawyerHood/dev-browser) CLI by Sawyer Hood (MIT). |
+| `software-development` | [`mcp-server-builder`](skills/software-development/mcp-server-builder/) | Build MCP servers (tools/resources/prompts) in Python (FastMCP) or Node/TS — with a working template and best practices. |
+| `software-development` | [`skill-builder`](skills/software-development/skill-builder/) | Author, validate, and package Agent Skills into installable `.skill` archives — with bundled validator and packager. |
+| `productivity` | [`pdf-toolkit`](skills/productivity/pdf-toolkit/) | Merge, split, rotate, watermark, extract text/tables, and OCR PDFs — built on `pypdf`, `pdfplumber`, `OCRmyPDF`. |
+| `productivity` | [`docx-toolkit`](skills/productivity/docx-toolkit/) | Create, read, and edit Word `.docx` documents — built on `python-docx`. |
+| `productivity` | [`xlsx-toolkit`](skills/productivity/xlsx-toolkit/) | Create, read, and edit Excel `.xlsx` workbooks (formulas, charts) — built on `openpyxl`. |
+| `productivity` | [`pptx-toolkit`](skills/productivity/pptx-toolkit/) | Create, read, and edit PowerPoint `.pptx` decks — built on `python-pptx`. |
 
 ## Install
 
@@ -35,6 +41,11 @@ with Claude (Anthropic)**. Upstream libraries are credited inside each skill's
 
 - `markitdown-converter` wraps [Microsoft MarkItDown](https://github.com/microsoft/markitdown) (MIT).
 - `dev-browser` wraps the [dev-browser](https://github.com/SawyerHood/dev-browser) CLI by Sawyer Hood (MIT), brought to you by [Do Browser](https://dobrowser.io).
+- `pdf-toolkit` is built on [pypdf](https://github.com/py-pdf/pypdf) (BSD), [pdfplumber](https://github.com/jsvine/pdfplumber) (MIT), [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) (MPL-2.0).
+- `docx-toolkit` / `xlsx-toolkit` / `pptx-toolkit` use [python-docx](https://github.com/python-openxml/python-docx), [openpyxl](https://foss.heptapod.net/openpyxl/openpyxl), [python-pptx](https://github.com/scanny/python-pptx) (all MIT).
+- `mcp-server-builder` uses the official [MCP SDKs](https://github.com/modelcontextprotocol) (MIT); `skill-builder` is an original work based on the public Agent Skills spec.
+
+All skills here are **original, permissively-licensed** implementations — no proprietary skill content is included or derived.
 
 A Claude-format version of these skills also lives at
 [l3ad3r1/Claude-skills-repo](https://github.com/l3ad3r1/Claude-skills-repo).
