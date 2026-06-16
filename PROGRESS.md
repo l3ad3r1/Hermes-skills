@@ -11,6 +11,8 @@
   DESCRIPTION.md to include animejs
 
 - Pushed main and cut first release **v1.0.0** (9 skills).
+- Added `clone-website` (adapted from JCodesMore template, MIT); pushed and
+  released **v1.1.0** (10 skills).
 
 ## In progress
 - (none)
