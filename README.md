@@ -15,6 +15,7 @@ tags — so it drops straight into a Hermes skills tree.
 | `software-development` | [`skill-builder`](skills/software-development/skill-builder/) | Author, validate, and package Agent Skills into installable `.skill` archives — with bundled validator and packager. |
 | `software-development` | [`animejs`](skills/software-development/animejs/) | Build web animations with [anime.js](https://animejs.com) v4 (DOM/CSS/SVG/timelines/stagger/scroll/draggable) by Julian Garnier (MIT). |
 | `software-development` | [`clone-website`](skills/software-development/clone-website/) | Reverse-engineer and clone any website into a Next.js + shadcn/ui + Tailwind codebase via a browser MCP + parallel builder agents. Adapts [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) by JCodesMore (MIT). |
+| `software-development` | [`agent-reach`](skills/software-development/agent-reach/) | Give the agent live internet access — installs/drives the open-source [Agent Reach](https://github.com/Panniantong/agent-reach) CLI to read/search web pages, Twitter/X, YouTube, Reddit, GitHub, RSS, Bilibili, Xiaohongshu, LinkedIn, podcasts, and Exa search via one zero-API-fee tool with backend failover. By Panniantong (MIT); installed from upstream, not vendored. |
 | `productivity` | [`pdf-toolkit`](skills/productivity/pdf-toolkit/) | Merge, split, rotate, watermark, extract text/tables, and OCR PDFs — built on `pypdf`, `pdfplumber`, `OCRmyPDF`. |
 | `productivity` | [`docx-toolkit`](skills/productivity/docx-toolkit/) | Create, read, and edit Word `.docx` documents — built on `python-docx`. |
 | `productivity` | [`xlsx-toolkit`](skills/productivity/xlsx-toolkit/) | Create, read, and edit Excel `.xlsx` workbooks (formulas, charts) — built on `openpyxl`. |
@@ -48,6 +49,7 @@ with Claude (Anthropic)**. Upstream libraries are credited inside each skill's
 - `mcp-server-builder` uses the official [MCP SDKs](https://github.com/modelcontextprotocol) (MIT); `skill-builder` is an original work based on the public Agent Skills spec.
 - `animejs` wraps [anime.js](https://animejs.com) v4 by Julian Garnier (MIT).
 - `clone-website` adapts [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) by JCodesMore (MIT); the Next.js scaffold and browser tooling are not vendored.
+- `agent-reach` documents and drives the [Agent Reach](https://github.com/Panniantong/agent-reach) CLI by Panniantong (MIT); the CLI and its backends are installed from upstream, not vendored.
 
 All skills here are **original, permissively-licensed** implementations — no proprietary skill content is included or derived.
 
