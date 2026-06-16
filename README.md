@@ -14,6 +14,7 @@ tags — so it drops straight into a Hermes skills tree.
 | `software-development` | [`mcp-server-builder`](skills/software-development/mcp-server-builder/) | Build MCP servers (tools/resources/prompts) in Python (FastMCP) or Node/TS — with a working template and best practices. |
 | `software-development` | [`skill-builder`](skills/software-development/skill-builder/) | Author, validate, and package Agent Skills into installable `.skill` archives — with bundled validator and packager. |
 | `software-development` | [`animejs`](skills/software-development/animejs/) | Build web animations with [anime.js](https://animejs.com) v4 (DOM/CSS/SVG/timelines/stagger/scroll/draggable) by Julian Garnier (MIT). |
+| `software-development` | [`clone-website`](skills/software-development/clone-website/) | Reverse-engineer and clone any website into a Next.js + shadcn/ui + Tailwind codebase via a browser MCP + parallel builder agents. Adapts [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) by JCodesMore (MIT). |
 | `productivity` | [`pdf-toolkit`](skills/productivity/pdf-toolkit/) | Merge, split, rotate, watermark, extract text/tables, and OCR PDFs — built on `pypdf`, `pdfplumber`, `OCRmyPDF`. |
 | `productivity` | [`docx-toolkit`](skills/productivity/docx-toolkit/) | Create, read, and edit Word `.docx` documents — built on `python-docx`. |
 | `productivity` | [`xlsx-toolkit`](skills/productivity/xlsx-toolkit/) | Create, read, and edit Excel `.xlsx` workbooks (formulas, charts) — built on `openpyxl`. |
@@ -46,6 +47,7 @@ with Claude (Anthropic)**. Upstream libraries are credited inside each skill's
 - `docx-toolkit` / `xlsx-toolkit` / `pptx-toolkit` use [python-docx](https://github.com/python-openxml/python-docx), [openpyxl](https://foss.heptapod.net/openpyxl/openpyxl), [python-pptx](https://github.com/scanny/python-pptx) (all MIT).
 - `mcp-server-builder` uses the official [MCP SDKs](https://github.com/modelcontextprotocol) (MIT); `skill-builder` is an original work based on the public Agent Skills spec.
 - `animejs` wraps [anime.js](https://animejs.com) v4 by Julian Garnier (MIT).
+- `clone-website` adapts [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) by JCodesMore (MIT); the Next.js scaffold and browser tooling are not vendored.
 
 All skills here are **original, permissively-licensed** implementations — no proprietary skill content is included or derived.
 
