@@ -10,9 +10,11 @@
 - Updated README skills table + credits and the software-development
   DESCRIPTION.md to include animejs
 
+- Pushed main and cut first release **v1.0.0** (9 skills).
+
 ## In progress
 - (none)
 
 ## Next steps
-- Consider making one repo the canonical source to avoid future drift
-  between Claude-skills-repo and Hermes-skills
+- This repo is the DERIVED copy; Claude-skills-repo is canonical. Mirror
+  new/changed skills here and run its tools/check_parity.py before release.
