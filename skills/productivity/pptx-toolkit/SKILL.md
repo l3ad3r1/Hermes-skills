@@ -4,7 +4,7 @@ description: Create, read, and edit PowerPoint (.pptx) presentations — add sli
   titles, bullet text, images, tables, and speaker notes, and read text out of existing
   decks. Built on the MIT-licensed python-pptx library. Use this skill whenever the
   user wants to generate a slide deck, edit an existing .pptx, extract text or notes
-  from a presentation, or produce slides/a pitch deck as a PowerPoint file.
+  from a presentation, or produce slides/a pitch deck as a PowerPoint file. For converting a deck to Markdown or handling batches of mixed file types, use markitdown-converter instead.
 version: 1.0.0
 author: Rinu (l3ad3r1) in collaboration with Claude (Anthropic)
 license: MIT

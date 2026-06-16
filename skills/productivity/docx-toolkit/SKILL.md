@@ -4,7 +4,7 @@ description: Create, read, and edit Microsoft Word (.docx) documents — add hea
   paragraphs, styled runs, tables, images, page breaks, and read existing documents'
   text and tables. Built on the MIT-licensed python-docx library. Use this skill whenever
   the user wants to generate a Word document, edit an existing .docx, extract text
-  or tables from a Word file, or produce a formatted report/letter/memo as .docx.
+  or tables from a Word file, or produce a formatted report/letter/memo as .docx. For converting a Word file to Markdown or handling batches of mixed file types, use markitdown-converter instead.
 version: 1.0.0
 author: Rinu (l3ad3r1) in collaboration with Claude (Anthropic)
 license: MIT

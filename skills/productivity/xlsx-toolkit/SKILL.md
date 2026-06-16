@@ -4,7 +4,7 @@ description: Create, read, and edit Excel (.xlsx) spreadsheets — write and rea
   add multiple sheets, formulas, number/date formatting, styling, and charts. Built
   on the MIT-licensed openpyxl library. Use this skill whenever the user wants to
   generate a spreadsheet, edit an existing .xlsx, read data or formulas out of a workbook,
-  add formulas or charts, or produce tabular output as an Excel file.
+  add formulas or charts, or produce tabular output as an Excel file. For converting a workbook to Markdown or handling batches of mixed file types, use markitdown-converter instead.
 version: 1.0.0
 author: Rinu (l3ad3r1) in collaboration with Claude (Anthropic)
 license: MIT

@@ -1,6 +1,6 @@
 ---
 name: dev-browser
-description: "Drive a real browser (navigate, click, fill, screenshot, full Playwright API) via sandboxed JS using the open-source dev-browser CLI."
+description: "Drive a real browser (navigate, click, fill, screenshot, full Playwright API) via sandboxed JS using the open-source dev-browser CLI. For scripted Playwright-style automation, not lightweight one-off page reads."
 version: 1.0.0
 author: Sawyer Hood (upstream, MIT); skill packaged by Rinu (l3ad3r1) with Claude (Anthropic)
 license: MIT

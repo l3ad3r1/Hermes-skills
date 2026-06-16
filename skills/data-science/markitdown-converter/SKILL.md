@@ -1,6 +1,6 @@
 ---
 name: markitdown-converter
-description: "Convert PDF/Office/HTML/CSV/JSON/XML/images/audio/EPub/ZIP to clean Markdown via Microsoft MarkItDown; then optionally analyze."
+description: "Convert PDF/Office/HTML/CSV/JSON/XML/images/audio/EPub/ZIP to clean Markdown via Microsoft MarkItDown; then optionally analyze. Use for bulk/mixed-format conversion; for creating/editing or structured table extraction from a single Office or PDF file, use the docx/xlsx/pptx/pdf toolkits instead."
 version: 1.0.0
 author: Rinu (l3ad3r1) in collaboration with Claude (Anthropic)
 license: MIT
