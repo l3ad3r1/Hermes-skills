@@ -1,3 +1,3 @@
 ---
-description: Skills for software development workflows — browser automation, web testing, and developer tooling.
+description: Skills for software development workflows — browser automation, web testing, frontend animation, and developer tooling.
 ---
