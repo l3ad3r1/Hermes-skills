@@ -16,6 +16,8 @@ tags — so it drops straight into a Hermes skills tree.
 | `software-development` | [`animejs`](skills/software-development/animejs/) | Build web animations with [anime.js](https://animejs.com) v4 (DOM/CSS/SVG/timelines/stagger/scroll/draggable) by Julian Garnier (MIT). |
 | `software-development` | [`clone-website`](skills/software-development/clone-website/) | Reverse-engineer and clone any website into a Next.js + shadcn/ui + Tailwind codebase via a browser MCP + parallel builder agents. Adapts [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) by JCodesMore (MIT). |
 | `software-development` | [`agent-reach`](skills/software-development/agent-reach/) | Give the agent live internet access — installs/drives the open-source [Agent Reach](https://github.com/Panniantong/agent-reach) CLI to read/search web pages, Twitter/X, YouTube, Reddit, GitHub, RSS, Bilibili, Xiaohongshu, LinkedIn, podcasts, and Exa search via one zero-API-fee tool with backend failover. By Panniantong (MIT); installed from upstream, not vendored. |
+| `software-development` | [`auto-browser`](skills/software-development/auto-browser/) | Real human-in-the-loop browser automation via the open-source [auto-browser](https://github.com/LvcidPsyche/auto-browser) MCP control plane by LvcidPsyche (MIT) — Playwright controller + Chromium, auth-profile reuse, noVNC takeover. Runs as a local Docker stack; includes Windows-via-WSL2 deployment notes. |
+| `software-development` | [`headroom`](skills/software-development/headroom/) | Context compression for AI agents — 60–95% fewer tokens by compressing tool outputs/logs/files/history before the model. Wraps the open-source [headroom](https://github.com/chopratejas/headroom) (`headroom-ai`) by chopratejas (Apache-2.0): MCP `headroom_compress`/`retrieve`/`stats` + optional proxy; Windows-via-WSL2 install notes. |
 | `productivity` | [`pdf-toolkit`](skills/productivity/pdf-toolkit/) | Merge, split, rotate, watermark, extract text/tables, and OCR PDFs — built on `pypdf`, `pdfplumber`, `OCRmyPDF`. |
 | `productivity` | [`docx-toolkit`](skills/productivity/docx-toolkit/) | Create, read, and edit Word `.docx` documents — built on `python-docx`. |
 | `productivity` | [`xlsx-toolkit`](skills/productivity/xlsx-toolkit/) | Create, read, and edit Excel `.xlsx` workbooks (formulas, charts) — built on `openpyxl`. |
@@ -50,6 +52,8 @@ with Claude (Anthropic)**. Upstream libraries are credited inside each skill's
 - `animejs` wraps [anime.js](https://animejs.com) v4 by Julian Garnier (MIT).
 - `clone-website` adapts [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) by JCodesMore (MIT); the Next.js scaffold and browser tooling are not vendored.
 - `agent-reach` documents and drives the [Agent Reach](https://github.com/Panniantong/agent-reach) CLI by Panniantong (MIT); the CLI and its backends are installed from upstream, not vendored.
+- `auto-browser` documents and wires up the [auto-browser](https://github.com/LvcidPsyche/auto-browser) MCP control plane by LvcidPsyche (MIT); the stack (`docker compose`) and the `auto-browser-mcp` bridge are installed from upstream, not vendored.
+- `headroom` documents and wires up [headroom](https://github.com/chopratejas/headroom) by chopratejas (Apache-2.0), distributed on PyPI as `headroom-ai`; installed from upstream, not vendored.
 
 All skills here are **original, permissively-licensed** implementations — no proprietary skill content is included or derived.
 

@@ -1,6 +1,11 @@
 # PROGRESS
 
 ## Just completed
+- Mirrored `auto-browser` (LvcidPsyche, MIT) and `headroom` (chopratejas,
+  Apache-2.0) into skills/software-development/ with Hermes frontmatter, NOTICE.md,
+  README table + credits, each with "Installation notes & known issues" covering
+  the Windows problems and WSL2 fixes. Parity OK (13 skills). Released **v1.3.0**.
+
 - Applied trigger-disambiguation lines to descriptions (mirrors Claude-skills-repo):
   - markitdown-converter vs docx/pdf/pptx/xlsx toolkits (both directions)
   - dev-browser: scripted Playwright automation note
