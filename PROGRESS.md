@@ -1,6 +1,15 @@
 # PROGRESS
 
 ## Just completed
+- Added new `design/` category with the **Taste Skill family** — 12 skills
+  mirrored from leonxlnx/taste-skill (MIT, tasteskill.dev): taste-skill,
+  soft-skill, minimalist-skill, brutalist-skill, redesign-skill, gpt-tasteskill,
+  image-to-code-skill, stitch-skill, brandkit, imagegen-frontend-web,
+  imagegen-frontend-mobile, output-skill. Hermes frontmatter (author=Leonxlnx,
+  upstream link, hermes.tags) + Credits note appended to each SKILL.md body to
+  match canonical. README table + credits updated. Parity OK (25 skills, 2
+  expected warnings). Released **v1.4.0**.
+
 - Mirrored `auto-browser` (LvcidPsyche, MIT) and `headroom` (chopratejas,
   Apache-2.0) into skills/software-development/ with Hermes frontmatter, NOTICE.md,
   README table + credits, each with "Installation notes & known issues" covering
