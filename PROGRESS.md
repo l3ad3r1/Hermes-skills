@@ -1,6 +1,16 @@
 # PROGRESS
 
 ## Just completed
+- Mirrored `social-media-analyzer` into `skills/data-science/` from
+  borghei/Claude-Skills (MIT + Commons Clause, Amin Borghei) — Hermes frontmatter
+  (author w/ mirror credit, upstream link, hermes.tags, prerequisites.commands)
+  + identical body to canonical (Credits note included) + NOTICE.md + the same
+  bundled scripts/assets/references as canonical. README table row + credits
+  updated. Note: SKILL.md is ~19.9KB, above the 15KB SkillConstraints soft cap
+  (brandkit already exceeds it too) — trim later if the Android loader complains.
+  Parity with Claude-skills-repo verified OK. Released alongside Claude-skills-repo
+  v1.7.0.
+
 - Added new `design/` category with the **Taste Skill family** — 12 skills
   mirrored from leonxlnx/taste-skill (MIT, tasteskill.dev): taste-skill,
   soft-skill, minimalist-skill, brutalist-skill, redesign-skill, gpt-tasteskill,

@@ -10,6 +10,7 @@ tags — so it drops straight into a Hermes skills tree.
 | Category | Skill | What it does |
 |---|---|---|
 | `data-science` | [`markitdown-converter`](skills/data-science/markitdown-converter/) | Convert PDF / Office / HTML / CSV / JSON / XML / images / audio / EPub / ZIP into clean, structure-preserving Markdown via Microsoft MarkItDown — then optionally analyze. |
+| `data-science` | [`social-media-analyzer`](skills/data-science/social-media-analyzer/) | Analyze social media campaign performance — engagement rate, CTR, ROI (CPE/CPC/CPM/ROAS), and top-performer ranking, benchmarked per platform (Instagram, Facebook, Twitter/X, LinkedIn, TikTok). Bundled Python metric/analysis scripts + sample I/O + 2026 benchmark reference. From the [Claude Skills Library](https://github.com/borghei/Claude-Skills) by Amin Borghei (MIT + Commons Clause). |
 | `software-development` | [`dev-browser`](skills/software-development/dev-browser/) | Drive a real browser (navigate, click, fill, screenshot, full Playwright API) via sandboxed JavaScript, wrapping the open-source [dev-browser](https://github.com/SawyerHood/dev-browser) CLI by Sawyer Hood (MIT). |
 | `software-development` | [`mcp-server-builder`](skills/software-development/mcp-server-builder/) | Build MCP servers (tools/resources/prompts) in Python (FastMCP) or Node/TS — with a working template and best practices. |
 | `software-development` | [`skill-builder`](skills/software-development/skill-builder/) | Author, validate, and package Agent Skills into installable `.skill` archives — with bundled validator and packager. |
@@ -68,7 +69,11 @@ with Claude (Anthropic)**. Upstream libraries are credited inside each skill's
 - `headroom` documents and wires up [headroom](https://github.com/chopratejas/headroom) by chopratejas (Apache-2.0), distributed on PyPI as `headroom-ai`; installed from upstream, not vendored.
 - The `design` category (`taste-skill`, `soft-skill`, `minimalist-skill`, `brutalist-skill`, `redesign-skill`, `gpt-tasteskill`, `image-to-code-skill`, `stitch-skill`, `brandkit`, `imagegen-frontend-web`, `imagegen-frontend-mobile`, `output-skill`) is mirrored from the [Taste Skill](https://github.com/leonxlnx/taste-skill) collection ([tasteskill.dev](https://tasteskill.dev)) by [Leonxlnx](https://github.com/leonxlnx) (MIT) — all credit for the design systems belongs to its author; content is reproduced unmodified except for a credits note.
 
-Skills outside the `design` category are **original, permissively-licensed** implementations — no proprietary skill content is included or derived.
+- `social-media-analyzer` is mirrored from the [Claude Skills Library](https://github.com/borghei/Claude-Skills) by [Amin Borghei](https://github.com/borghei) (**MIT + Commons Clause**) — all credit for the metrics logic, ROI model, and platform benchmarks belongs to its author. Redistribution is permitted; the Commons Clause forbids *selling* the software (see the skill's `NOTICE.md`).
+
+Skills outside the `design` category and `social-media-analyzer` are **original,
+permissively-licensed** implementations — no proprietary skill content is
+included or derived.
 
 A Claude-format version of these skills also lives at
 [l3ad3r1/Claude-skills-repo](https://github.com/l3ad3r1/Claude-skills-repo).
